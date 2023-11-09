@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import GalleryImage from "./GalleryImage";
+import GalleryImage from "../shared/GalleryImage";
 
 const StoriesGalleryContainer = () => {
   const [data, setData] = useState([

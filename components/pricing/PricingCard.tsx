@@ -1,5 +1,5 @@
 import React from "react";
-import MuiCard from "@mui/material/Card";
+import Card from "@mui/material/Card";
 import {
   CardContent,
   Typography,
@@ -18,12 +18,12 @@ interface Props {
   monthlySelected: boolean;
 }
 
-const Card = ({ plan, monthlySelected }: Props) => {
+const PricingCard = ({ plan, monthlySelected }: Props) => {
   const { description, monthlyPrice, yearlyPrice } = plan;
 
   const proPlan = plan.plan.includes("Pro");
   return (
-    <MuiCard
+    <Card
       sx={{
         width: "90vw",
         display: "flex",
@@ -123,8 +123,8 @@ const Card = ({ plan, monthlySelected }: Props) => {
           Pick Plan
         </Button>
       </CardActions>
-    </MuiCard>
+    </Card>
   );
 };
 
-export default Card;
+export default PricingCard;

@@ -2,7 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import Image from "next/image";
 
-const Beta = () => {
+const BetaAnnouncement = () => {
   return (
     <Box
       sx={{
@@ -59,4 +59,4 @@ const Beta = () => {
   );
 };
 
-export default Beta;
+export default BetaAnnouncement;

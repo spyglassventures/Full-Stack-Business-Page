@@ -2,7 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import Image from "next/image";
 
-const HeroContainer = () => {
+const StoriesHero = () => {
   return (
     <Box
       sx={{
@@ -83,4 +83,4 @@ const HeroContainer = () => {
   );
 };
 
-export default HeroContainer;
+export default StoriesHero;

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Switch from "@mui/material/Switch";
 import { Box, Typography } from "@mui/material";
-import Card from "./Card";
-import Compare from "./Compare";
+import Card from "./PricingCard";
+import Compare from "./PricingTable";
 const label = { inputProps: { "aria-label": "Switch demo" } };
 
 const PricingContainer = () => {
