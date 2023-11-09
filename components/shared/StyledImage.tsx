@@ -16,8 +16,8 @@ const StyledImage = styled("img")(() => ({
   },
 }));
 
-const DisplayImage = ({ src }: Props) => {
+const Image = ({ src }: Props) => {
   return <StyledImage src={src} />;
 };
 
-export default DisplayImage;
+export default Image;

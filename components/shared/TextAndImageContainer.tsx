@@ -1,13 +1,13 @@
 import { Box } from "@mui/material";
 import React from "react";
-import DisplayImage from "./DisplayImage";
+import DisplayImage from "./StyledImage";
 import TextBox from "./TextBox";
 
 interface Props {
   data: { src: string; heading: string; description: string; cta: string };
 }
 
-const DisplayContainer = ({ data }: Props) => {
+const TextAndImageContainer = ({ data }: Props) => {
   return (
     <Box
       sx={{
@@ -33,4 +33,4 @@ const DisplayContainer = ({ data }: Props) => {
   );
 };
 
-export default DisplayContainer;
+export default TextAndImageContainer;
