@@ -45,7 +45,7 @@ const Navigation = () => {
         >
           <Link href="/">
             <Image
-              src="/assets/graphics/logo.svg"
+              src="/assets/graphics/svg.svg"
               alt="logo"
               width="170"
               height="16"
@@ -139,6 +139,7 @@ const Navigation = () => {
               backgroundColor: "black",
               color: "#fafafa",
               borderRadius: 0,
+              visibility: "hidden",
 
               "@media (min-width: 600px)": {
                 width: "9.875rem",

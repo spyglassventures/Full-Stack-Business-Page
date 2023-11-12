@@ -16,6 +16,10 @@ import "@fontsource/roboto/700.css";
 import createEmotionCache from "../utility/createEmotionCache";
 import lightThemeOptions from "../styles/theme/lightThemeOptions";
 import "../styles/globals.css";
+// import { Navigation } from "@mui/icons-material";
+import Navigation from "../components/shared/Navigation";
+import Footer from "../components/shared/Footer";
+
 interface MyAppProps extends AppProps {
   emotionCache?: EmotionCache;
 }
@@ -31,6 +35,7 @@ const MyApp: React.FunctionComponent<MyAppProps> = (props) => {
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={lightTheme}>
         <CssBaseline />
+        <Navigation />
         <div
           style={{
             background:
@@ -40,6 +45,7 @@ const MyApp: React.FunctionComponent<MyAppProps> = (props) => {
           <Container disableGutters>
             <Component {...pageProps} />
           </Container>
+          <Footer />
         </div>
       </ThemeProvider>
     </CacheProvider>

@@ -11,6 +11,8 @@ const FeaturesContainer = () => {
       description: "",
     },
   ]);
+
+  // object router with prop route, used to return url. Use later with starts with features, etc..
   const router = useRouter();
   const route = router.route;
 
@@ -36,25 +38,25 @@ const FeaturesContainer = () => {
     >
       {route.startsWith("/features")
         ? data.map((feature) => {
-            return (
-              <Feature
-                src={feature.src}
-                heading={feature.heading}
-                description={feature.description}
-                key={feature.src}
-              />
-            );
-          })
+          return (
+            <Feature
+              src={feature.src}
+              heading={feature.heading}
+              description={feature.description}
+              key={feature.src}
+            />
+          );
+        })
         : data.slice(0, 3).map((feature) => {
-            return (
-              <Feature
-                src={feature.src}
-                heading={feature.heading}
-                description={feature.description}
-                key={feature.src}
-              />
-            );
-          })}
+          return (
+            <Feature
+              src={feature.src}
+              heading={feature.heading}
+              description={feature.description}
+              key={feature.src}
+            />
+          );
+        })}
     </Box>
   );
 };

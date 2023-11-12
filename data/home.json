@@ -1,20 +1,20 @@
 [
   {
     "src": "/assets/images/create-and-share.jpg",
-    "heading": "Create and share your photo stories.",
-    "description": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
-    "cta": "Get An Invite"
+    "heading": "MY PERSONAL HOMEPAGE.",
+    "description": "I mostly write about Web3, Data Science, Economics and Life.",
+    "cta": "MORE"
   },
   {
     "src": "/assets/images/beautiful-stories.jpg",
-    "heading": "BEAUTIFUL STORIES EVERY TIME",
-    "description": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+    "heading": "BEAUTIFUL WEB3 STORIES",
+    "description": "The worlds is chaning and Web3 has the potential to change the way we interact with the people, money and the web.  I've been writing about Web3 since 2015 and I'm excited to share my thoughts with you.",
     "cta": "VIEW THE STORIES"
   },
   {
     "src": "/assets/images/designed-for-everyone.jpg",
-    "heading": "DESIGNED FOR EVERYONE",
-    "description": "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it.",
+    "heading": "DESIGNED BY DALL-E",
+    "description": "My promts are mine. I've been using GPT-3 for a while now and I'm excited to share my artwork with you. Not to be taken to seriously",
     "cta": "VIEW THE STORIES"
   }
 ]
